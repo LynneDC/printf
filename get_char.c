@@ -40,14 +40,3 @@ va_end(args);
 return (count);
 }
 
-/**
-* main - tests the _printf function
-*
-* Return: always 0
-*/
-int main(void)
-{
-int num = 42;
-_printf("The answer is %d\n", num);
-return (0);
-}
