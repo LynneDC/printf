@@ -21,7 +21,7 @@ int _printf(const char *format, ...)
 
 	printf("%s", va_arg(str, char *));
 	printf("%c", va_arg(str, char *));
-	
+
 
 	return (l);
 	va_end(str);
