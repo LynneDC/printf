@@ -11,6 +11,7 @@
  * @space: flag for the ' ' character
  * @hash: flag for the '#' character
  */
+
 typedef struct flags
 {
 	int plus;
